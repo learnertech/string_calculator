@@ -25,7 +25,7 @@ Negative number detection: Raises an error when negative numbers are present and
 1. Clone the repository:
 First, clone the repository to your local machine:
 
-    git clone https://github.com/your-username/string_calculator.git
+    git clone https://github.com/learnertech/string_calculator.git
 
 2. Install the dependencies:
 Make sure to install the required dependencies for the project:
