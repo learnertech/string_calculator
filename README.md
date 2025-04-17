@@ -3,22 +3,37 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Features
+Empty string: Returns 0 for an empty string input.
 
-* Ruby version
+Single number: Returns the number itself.
 
-* System dependencies
+Multiple numbers: Supports adding numbers separated by commas or newlines.
 
-* Configuration
+Custom delimiter: Supports custom delimiters by specifying //[delimiter] at the start of the string.
 
-* Database creation
+Negative number detection: Raises an error when negative numbers are present and lists them.
 
-* Database initialization
 
-* How to run the test suite
+* Requirements
+    Ruby version: ruby 3.4.1
 
-* Services (job queues, cache servers, search engines, etc.)
+    Rails version: Rails 8.0.2 (if required for any additional project dependencies)
 
-* Deployment instructions
+* Installation
+
+1. Clone the repository:
+First, clone the repository to your local machine:
+
+    git clone https://github.com/your-username/string_calculator.git
+
+2. Install the dependencies:
+Make sure to install the required dependencies for the project:
+
+    bundle install
+3. Run the Tests:
+To verify that everything is working as expected, run the tests using RSpec:
+
+   rspec
 
 * ...
